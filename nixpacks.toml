@@ -2,7 +2,7 @@
 nixPkgs = ["nodejs-20_x", "yarn"]
 
 [phases.install]
-cmds = ["yarn install --check-cache"]
+cmds = ["yarn install"]
 
 [phases.build]
 cmds = ["yarn build"]
